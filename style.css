@@ -13,17 +13,16 @@ body {
 #choices {
     list-style: none;
     padding: 0;
+    font-size: 18px; /* Increased font size */
 }
-#choices li {
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    cursor: pointer;
+#choices input[type="radio"] {
+    margin-right: 10px;
 }
-#choices li:hover {
-    background-color: #efefef;
+#choices label {
+    display: block;
+    margin: 10px 0;
 }
 button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 18px; /* Increased font size */
 }
