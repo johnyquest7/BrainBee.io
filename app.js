@@ -9,7 +9,7 @@ let incorrectQuestions = [];
 // Load questions from JSONBin
 const loadQuestionsFromJSONBin = async () => {
     const binID = '6767b0c0e41b4d34e4696b0e';
-    const url = `https://api.jsonbin.io/v3/b/${6767b0c0e41b4d34e4696b0e}`;
+    const url = `https://api.jsonbin.io/v3/b/${binID}`;
     const headers = {
         'X-Master-Key': '$2a$10$wfKJ4PJCZ.LkUOcAajI1P.RYoG7H0v0lmypdP.XoCXBysXroY.8nW', // Replace with your JSONBin Master Key
     };
