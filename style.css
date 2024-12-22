@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+#app {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+#choices {
+    list-style: none;
+    padding: 0;
+}
+#choices li {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#choices li:hover {
+    background-color: #efefef;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
